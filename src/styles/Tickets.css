@@ -1,0 +1,156 @@
+.summit-section {
+  padding: 4rem 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.summit-header {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.summit-header span {
+  color: #023e8a;
+}
+
+.summit-lead {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.7;
+  background-color: #fff;
+}
+
+.ticket-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.ticket-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  width: 320px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.ticket-card:hover {
+  transform: translateY(-8px);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-now-btn {
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-now-btn:hover {
+  background-color: #eee;
+}
+
+.ticket-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #007f5f;
+  margin-bottom: 0.2rem;
+}
+
+.validity {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.2rem;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+.includes-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.includes {
+  list-style-type: none;
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.includes li {
+  margin-bottom: 0.5rem;
+}
+
+.checkmark {
+  color: #007f5f;
+  margin-right: 0.5rem;
+}
+
+.buy-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buy-btn {
+  background-color: #023e8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #0353a4;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #52b788;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+}

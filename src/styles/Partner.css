@@ -1,0 +1,74 @@
+/* General Styles */
+.partners-section {
+  padding: 4rem 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Header Styles */
+.partners-header {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.partners-header span{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* Logos Grid Styles */
+.logos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.logo-box {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* Call-to-Action Section Styles */
+.cta-section {
+  background-color: #00b496; /* Teal color */
+  padding: 2rem 1.5rem;
+  border-radius: 8px;
+}
+
+.cta-text {
+  font-size: 1.9rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+.cta-text span {
+  font-weight: bold;
+  color: black;
+}
+
+.cta-btn {
+  background-color: #e74c3c; /* Red color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.arrow-icon {
+  margin-right: 0.5rem;
+
+  transform: rotate(45deg);
+}
